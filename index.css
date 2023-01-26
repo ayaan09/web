@@ -4,6 +4,7 @@ body, html{
   /* padding: 0; */
   background-color: #0E1217 !important;
 }
+
 .top-bar{
   background-color: black;
   height: 80px;
@@ -37,12 +38,25 @@ body, html{
   margin-left: 20px;
 }
 .btn-signup{
-  margin-left: 300px;
+  margin-left: 280px;
   color: white !important;
 }
 .btn-light{
   color:black;
 }
+
+.parent-container {
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  height: 600px;
+  max-width: 2000px;
+}
+
+.container{
+  scroll-snap-align: start;
+  height: 600px;
+}
+
 .cards{
   margin-top: 100px;
   width:450px;
@@ -75,14 +89,23 @@ font-family: 'Montserrat', sans-serif;
   margin-top: 35px !important;
   display: block;
   font-size: 1.6rem;
-  font-weight: 1;
-  font-style: italic;
   max-width: 820px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400 !important;
-  letter-spacing: 0.03rem;
+  font-family: 'Raleway', sans-serif;  letter-spacing: 0.03rem;
   line-height: 2.5rem;
   max-width: 810px;
+}
+
+.book-free-trial{
+  margin-left: 620px;
+  margin-top: -65px !important;
+  display: block;
+  font-size: 1.5rem;
+  font-style: italic;
+  max-width: 820px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.03rem;
+  line-height: 2.5rem;
+  color: white;
 }
 
 .cards> img{
@@ -94,7 +117,7 @@ font-family: 'Montserrat', sans-serif;
 
 .our-tutors-are-from{
   margin-left: 110px;
-  margin-top: 50px !important;
+  margin-top: 105px !important;
   display: block;
   font-size: 1.75rem;
   font-family: 'Montserrat', sans-serif;
@@ -102,38 +125,84 @@ font-family: 'Montserrat', sans-serif;
   color: #FFFBF5;
 }
 
-.our-tutors-are-from> img{
+.cuhk-logo> img{
   width: 60px;
   height: 47.475px;
   display:block;
   margin-top: 30px;
-  margin-left: 70px;
+  margin-left: 190px;
+}
+.hku-logo> img{
+  width: 45px;
+  height: 50px;
+  display:block;
+  margin-top: -50px;
+  margin-left: 430px;
+}
+
+.hkust-logo> img{
+  width: 40px;
+  height: 50px;
+  display:block;
+  margin-top: -50px;
+  margin-left: 640px;
+}
+
+.university-of-michigan> img{
+  width: 60px;
+  height: 50px;
+  display:block;
+  margin-top: -50px;
+  margin-left: 850px;
+}
+
+.lse-logo> img{
+  width: 50px;
+  height: 50px;
+  display:block;
+  margin-top: -50px;
+  margin-left: 1060px;
+}
+
+.uoft-logo> img{
+  width: 65px;
+  height: 50px;
+  display:block;
+  margin-top: -50px;
+  margin-left: 1270px;
+}
+
+.and-more{
+  margin-top: 15px;
+  margin-left: 1370px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: oblique;
+  color: white;
 }
 
 .How-Are-We-Different{
   margin-left: 110px;
-  margin-top: 150px !important;
+  margin-top: 190px !important;
   display: block;
   font-size: 4.5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400 !important;
   color: #FFFBF5;
 }
+
 .How-Are-We-Different-Subtext> ol{
   list-style: circle;
   list-style-type: disc;
 }
+
 .How-Are-We-Different-Subtext{
   margin-left: -15px;
   margin-top: 35px !important;
   display: block;
   font-size: 2rem;
-  font-weight: 1;
-  font-style: italic;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400 !important;
-  letter-spacing: 0.03rem;
+  font-family: 'Raleway', sans-serif;
   line-height: 8rem;
+  letter-spacing: 0.03rem;
 }
 
 .how-are-we-different-images>img{
@@ -147,6 +216,27 @@ margin-left: -130px;
 margin-top: 50px;
 }
 
+.flaticon-Subtext-1{
+margin-left: 235px;
+margin-top: 25px;
+font-family: 'Montserrat', sans-serif;
+color: white;
+}
+
+.flaticon-Subtext-2{
+  margin-left: 620px;
+  margin-top: -20px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.flaticon-Subtext-3{
+  margin-left: 1090px;
+  margin-top: -20px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+
+}
 .Tutoring-levels{
   margin-left: 110px;
   margin-top: 150px !important;
@@ -283,39 +373,17 @@ font-family: 'Montserrat', sans-serif;
   background-color: black;
   color: white;
 }
-form{
-  color: white;
-  display: block;
-  margin-left: 400px;
-  margin-top: 50px;
-  margin-bottom: 35px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
-}
-input{
-  border: none;
-  border-bottom: solid 1px white;
-  width: 60%;
-  padding: 12px 20px;
-  margin: 8px;
-  background-color: #0E1217;
-  display: block;
-}
-label{
-  padding: 12px 20px;
+
 }
 .Contact{
   color: white;
   margin-left: 115px;
-  margin-top: 100px;
+  margin-top: 135px;
   font-size: 4rem;
 
   font-family: 'Montserrat', sans-serif;
 }
-.form-contact>button{
-  background-color: white;
-  color: black;
-  margin-top: 30px;
-  margin-left: 300px;
-  font-size: 1.5rem;
+
+.empty-space{
+margin-top: 100px;
 }
