@@ -12,10 +12,35 @@ body, html{
   font-family: 'Montserrat', sans-serif;
 }
 
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#xperience:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 .logo-main{
   font-size: 1.8rem !important;
   letter-spacing: 0.4rem;
 }
+
 .name{
   position: absolute;
   margin-top: 25px;
@@ -24,6 +49,7 @@ body, html{
   /* text-align: center;
   justify-content: center; */
 }
+
 .name > li{
     display:inline-block;
 }

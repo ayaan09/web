@@ -13,6 +13,30 @@ body, html{
   font-family: 'Montserrat', sans-serif;
 }
 
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#xperience:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 .logo-main{
   font-size: 1.8rem !important;
   letter-spacing: 0.4rem;
@@ -45,18 +69,6 @@ body, html{
   color:black;
 }
 
-.parent-container {
-  overflow: auto;
-  scroll-snap-type: y mandatory;
-  height: 600px;
-  max-width: 2000px;
-}
-
-.container{
-  scroll-snap-align: start;
-  height: 600px;
-}
-
 .cards{
   margin-top: 100px;
   width:450px;
@@ -75,7 +87,7 @@ body, html{
 
 .title-card{
 position: absolute;
-margin-top: 100px !important;
+margin-top: 90px !important;
 margin-left: 50px;
 display: inline-block;
 font-size: 3rem;
@@ -86,7 +98,7 @@ font-family: 'Montserrat', sans-serif;
 
 .title-subtext{
   margin-left: 1px;
-  margin-top: 35px !important;
+  margin-top: 25px !important;
   display: block;
   font-size: 1.6rem;
   max-width: 820px;
@@ -97,7 +109,7 @@ font-family: 'Montserrat', sans-serif;
 
 .book-free-trial{
   margin-left: 620px;
-  margin-top: -65px !important;
+  margin-top: -75px !important;
   display: block;
   font-size: 1.5rem;
   font-style: italic;
