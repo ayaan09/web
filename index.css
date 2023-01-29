@@ -53,16 +53,16 @@ a:active {
     display:inline-block;
 }
 .first-item{
-   margin-left: 310px;
+   margin-left: 290px;
 }
 .other-items{
-   margin-left: 50px;
+   margin-left: 30px;
 }
 .list-items{
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .btn-signup{
-  margin-left: 280px;
+  margin-left: 260px;
   color: white !important;
 }
 .btn-light{
