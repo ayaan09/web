@@ -68,7 +68,7 @@ a:active {
   color:black;
 }
 
-.education-consultation{
+.one-stop-services{
   position: absolute;
   margin-top: 50px !important;
   margin-left: 100px;
@@ -78,9 +78,20 @@ a:active {
   font-family: 'Montserrat', sans-serif;
 }
 
+
+.education-consultation{
+  position: absolute;
+  margin-top: 150px !important;
+  margin-left: 100px;
+  display: inline-block;
+  font-size: 3.5rem;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .education-consultation-subtext{
   margin-left: 1px;
-  margin-top: 35px !important;
+  margin-top: 30px !important;
   display: block;
   font-size: 1.6rem;
   font-weight: 1;
@@ -91,7 +102,7 @@ a:active {
   
 .services-offering{
   margin-left: 100px;
-  margin-top: 225px !important;
+  margin-top: 320px !important;
   display: block;
   font-size: 1.5rem;
   font-family: 'Montserrat', sans-serif;
@@ -106,7 +117,7 @@ a:active {
 
 .services-offering-subtext{
   margin-left: 80px;
-  margin-top: 10px !important;
+  margin-top: px !important;
   display: block;
   font-size: 1.6rem;
   font-family: 'Raleway', sans-serif;
@@ -116,8 +127,8 @@ a:active {
 }
 
 .university-image> img{
-  margin-left: 620px;
-  margin-top: -885px;
+  margin-left: 570px;
+  margin-top: -870px;
   height: 75px;
   width: 75px;
 }
@@ -134,7 +145,7 @@ a:active {
   margin-left: 100px;
   position: absolute;
   display: inline-block;
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: white;
   font-family: 'Montserrat', sans-serif;
 }
@@ -177,8 +188,8 @@ a:active {
 }
 
 .career-image> img{
-  margin-left: 550px;
-  margin-top: 40px;
+  margin-left: 500px;
+  margin-top: 30px;
   height: 75px;
   width: 75px;
 }
