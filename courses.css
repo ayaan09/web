@@ -1,0 +1,356 @@
+
+body, html{
+    margin: 0;
+    /* padding: 0; */
+    background-color: #0E1217 !important;
+  }
+  .top-bar{
+    background-color: black;
+    height: 80px;
+    width: auto;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  #xperience:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .logo-main{
+    font-size: 1.8rem !important;
+    letter-spacing: 0.4rem;
+  }
+  .name{
+    position: absolute;
+    margin-top: 25px;
+    text-decoration: none;
+    list-style: none;
+    /* text-align: center;
+    justify-content: center; */
+  }
+  .name > li{
+    display:inline-block;
+  }
+  .first-item{
+   margin-left: 290px;
+  }
+  .other-items{
+   margin-left: 30px;
+  }
+  .list-items{
+  margin-left: 10px;
+  }
+  .btn-signup{
+  margin-left: 260px;
+  color: white !important;
+  }
+  .btn-light{
+  color:black;
+  }
+
+  
+.title{
+  position: absolute;
+  margin-top: -15px !important;
+  margin-left: 50px;
+  display: inline-block;
+  font-size: 4rem;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+    
+.title-subtext{
+  margin-left: 1px;
+  margin-top: 35px !important;
+  display: block;
+  font-size: 1.6rem;
+  max-width: 820px;
+  font-family: 'Raleway', sans-serif;  font-weight: 400 !important;
+  letter-spacing: 0.03rem;
+  line-height: 3.5rem;
+  max-width: 1260px;
+}
+    
+
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #202020;
+  z-index: -1;
+  width: 100%;
+  text-align: center;
+}
+.content .header{
+  font-size: 45px;
+  font-weight: 700;
+}
+.content p{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.courses{
+  margin-top: 60px;
+  margin-left: 70px;
+  font-size: 3.5rem;
+  color: white;
+  font-family: Montserrat;
+}
+
+.card-parent{
+  margin-left: 45px;
+  margin-top: 30px;
+
+}
+
+.card{
+  margin-top: 100px;
+  margin-left: 600px;
+  width:450px;
+  height:300px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 5%;
+  background-color:#FFFBF5;
+}
+
+.subject-1-desc{
+  margin-top: 80px;
+  margin-left: 140px;
+  font-family: Montserrat;
+
+}
+
+.card> img{
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: -165px;
+}
+
+.card-2{
+  margin-top: 100px;
+  margin-left: 600px;
+  width:450px;
+  height:300px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 5%;
+  background-color:#FFFBF5;
+}
+
+.subject-2-desc{
+  margin-top: 80px;
+  margin-left: 140px;
+  font-family: Montserrat;
+}
+
+.card-2> img{
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: -165px;
+}
+
+.card-3{
+  margin-top: 100px;
+  margin-left: 600px;
+  width:450px;
+  height:300px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 5%;
+  background-color:#FFFBF5;
+}
+
+.subject-3-desc{
+  margin-top: 80px;
+  margin-left: 140px;
+  font-family: Montserrat;
+}
+
+.card-3> img{
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: -165px;
+}
+
+.card-4{
+  margin-top: 100px;
+  margin-left: 600px;
+  width:450px;
+  height:300px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 5%;
+  background-color:#FFFBF5;
+}
+
+.subject-4-desc{
+  margin-top: 80px;
+  margin-left: 140px;
+  font-family: Montserrat;
+
+}
+
+.card-4> img{
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: -165px;
+}
+
+.card-5{
+  margin-top: 100px;
+  margin-left: 600px;
+  width:450px;
+  height:300px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 5%;
+  background-color:#FFFBF5;
+}
+
+.subject-5-desc{
+  margin-top: 80px;
+  margin-left: 140px;
+  font-family: Montserrat;
+}
+
+.card-5> img{
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: -165px;
+}
+
+.card-6{
+  margin-top: 100px;
+  margin-left: 600px;
+  width:450px;
+  height:300px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 5%;
+  background-color:#FFFBF5;
+}
+
+.subject-6-desc{
+  margin-top: 80px;
+  margin-left: 140px;
+  font-family: Montserrat;
+}
+
+.card-6> img{
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: -165px;
+}
+
+.card-7{
+  margin-top: 100px;
+  margin-left: 600px;
+  width:450px;
+  height:300px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 5%;
+  background-color:#FFFBF5;
+}
+
+.subject-7-desc{
+  margin-top: 80px;
+  margin-left: 140px;
+  font-family: Montserrat;
+}
+
+.card-7> img{
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: -165px;
+}
+
+.card-8{
+  margin-top: 100px;
+  margin-left: 600px;
+  width:450px;
+  height:300px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 5%;
+  background-color:#FFFBF5;
+}
+
+.subject-8-desc{
+  margin-top: 80px;
+  margin-left: 140px;
+  font-family: Montserrat;
+}
+
+.card-8> img{
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: -165px;
+}
+
+.card-9{
+  margin-top: 100px;
+  margin-left: 600px;
+  width:450px;
+  height:300px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 5%;
+  background-color:#FFFBF5;
+}
+
+.subject-9-desc{
+  margin-top: 80px;
+  margin-left: 140px;
+  font-family: Montserrat;
+}
+
+.card-9> img{
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: -165px;
+}
+
+.title-subtext{
+  margin-left: 665px;
+  margin-top: -400px;
+  font-size: 1.6rem;
+  font-family: 'Raleway', sans-serif;  letter-spacing: 0.03rem;
+  line-height: 2.5rem;
+}
+
+.empty-space{
+margin-top: 50px;
+}
