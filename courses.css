@@ -343,6 +343,30 @@ body, html{
   margin-top: -165px;
 }
 
+.card-10{
+  margin-top: 100px;
+  margin-left: 600px;
+  width:450px;
+  height:300px;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 5%;
+  background-color:#FFFBF5;
+}
+
+.subject-10-desc{
+  margin-top: 80px;
+  margin-left: 140px;
+  font-family: Montserrat;
+}
+
+.card-10> img{
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: -165px;
+}
+
 .title-subtext{
   margin-left: 665px;
   margin-top: -400px;
